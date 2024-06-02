@@ -8,7 +8,7 @@ const Watchlist = () => {
     const apiKey = import.meta.env.VITE_API_KEY;
 
     // Replace 'YOUR_ACCOUNT_ID' with your actual TMDb account ID
-    const accountId = "YOUR_ACCOUNT_ID";
+    const accountId = "21289655";
 
     const options = {
       method: "GET",
@@ -32,7 +32,7 @@ const Watchlist = () => {
       });
   }, []);
 
-  
+
   return (
     <div>
       <h1>Watchlist</h1>
