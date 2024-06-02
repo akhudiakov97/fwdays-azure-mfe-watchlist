@@ -9,6 +9,7 @@ const Watchlist = () => {
 
     // Replace 'YOUR_ACCOUNT_ID' with your actual TMDb account ID
     const accountId = "21289655";
+    
 
     const options = {
       method: "GET",
